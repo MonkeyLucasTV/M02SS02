@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/09 10:47:30.000.130,=C:\Users\lpokrywa\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2023/11/09 10:47:30.000.116,=C:\Users\lpokrywa\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2023/11/09 10:50:32.000.523,C:\Users\lpokrywa\Documents\Embarcadero\Studio\Projets\Unit1.dfm=C:\Users\lpokrywa\Desktop\M02SS02\f\Unit1.dfm</Transaction>
+    <Transaction>2023/11/09 10:50:32.000.523,C:\Users\lpokrywa\Documents\Embarcadero\Studio\Projets\Unit1.cpp=C:\Users\lpokrywa\Desktop\M02SS02\f\Unit1.cpp</Transaction>
+    <Transaction>2023/11/09 10:50:32.000.523,C:\Users\lpokrywa\Documents\Embarcadero\Studio\Projets\Unit1.h=C:\Users\lpokrywa\Desktop\M02SS02\f\Unit1.h</Transaction>
+    <Transaction>2023/11/09 10:50:50.000.640,=C:\Users\lpokrywa\Desktop\M02SS02\f\IRClientTCP.h</Transaction>
+    <Transaction>2023/11/09 10:50:50.000.635,=C:\Users\lpokrywa\Desktop\M02SS02\f\DMXTCP.h</Transaction>
+    <Transaction>2023/11/09 10:50:50.000.633,=C:\Users\lpokrywa\Desktop\M02SS02\f\DMXTCP.cpp</Transaction>
+    <Transaction>2023/11/09 10:50:50.000.638,=C:\Users\lpokrywa\Desktop\M02SS02\f\IRClientTCP.cpp</Transaction>
+    <Transaction>2023/11/09 10:51:03.000.039,C:\Users\lpokrywa\Documents\Embarcadero\Studio\Projets\Project1PCH1.h=C:\Users\lpokrywa\Desktop\M02SS02\f\Project1PCH1.h</Transaction>
+    <Transaction>2023/11/09 10:51:03.000.400,C:\Users\lpokrywa\Documents\Embarcadero\Studio\Projets\Project1.cbproj=C:\Users\lpokrywa\Desktop\M02SS02\f\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

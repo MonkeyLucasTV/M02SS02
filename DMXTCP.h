@@ -1,0 +1,22 @@
+
+#include "IRClientTCP.h"
+
+using namespace std;
+
+class DMXTCP
+{
+
+	private:
+	unsigned char trame[512];
+	IRClientTCP monClient;                  // Creer l'objet mon client
+
+
+	public:
+	DMXTCP();
+	void ModifierCanal(unsigned short canal, unsigned short valeur);
+	void Envoyer(char IP[16], unsigned short port);
+	void FullOn();
+	void FullOff();
+	void Demonstration();
+
+};
