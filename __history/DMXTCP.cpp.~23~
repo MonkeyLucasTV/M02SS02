@@ -41,7 +41,7 @@ void DMXTCP::Demonstration() {
 
 	srand(time(0));
 	for (int i=0; i < 512; i++) {
-		trame[i] = rand() % 256;
+		trame[i] = rand() % 255;
 
 	}
 

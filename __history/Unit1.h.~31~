@@ -85,8 +85,6 @@ __published:	// Composants gérés par l'EDI
           int X, int Y);
 	void __fastcall Image17MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
           int X, int Y);
-	void __fastcall Image17MouseMove(TObject *Sender, TShiftState Shift, int X, int Y);
-
 
 private:	// Déclarations utilisateur
 	DMXTCP monDMXTCP;

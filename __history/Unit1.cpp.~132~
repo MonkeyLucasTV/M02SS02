@@ -174,7 +174,7 @@ void __fastcall TForm1::Image17MouseMove(TObject *Sender, TShiftState Shift, int
 	if (click && gauche>Bevel1->Left
 			  && haut>Bevel1->Top
 			  && gauche+Image17->Width<Bevel1->Left+Bevel1->Width
-			  && haut+Image17->Height<Bevel1->Top+Bevel1->Height) {
+			  && haut+Image17->Height<Bevel1->Top) {
 		Image17->Top= haut;
 		Image17->Left= gauche;
 	}

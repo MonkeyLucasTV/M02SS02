@@ -15,7 +15,7 @@ TForm1 *Form1;
 void TForm1::Auto(){
 	if (CheckBox1->Checked == true) {
 		monDMXTCP.Envoyer((AnsiString(Edit1 -> Text)).c_str(),4123);
-		Sleep(100);
+		Sleep(50);
 	}
 
 }
@@ -169,17 +169,15 @@ void __fastcall TForm1::Image17MouseDown(TObject *Sender, TMouseButton Button, T
 void __fastcall TForm1::Image17MouseMove(TObject *Sender, TShiftState Shift, int X,
           int Y)
 {
-	int haut = Image17->Top+Y - Image17->Height/2;
-	int gauche = Image17->Left+X - Image17->Width/2;
+	int haut = Image17->Top - Image17->Height;
+	int gauche = Image17->Left - Image17->Width;
 	if (click && gauche>Bevel1->Left
 			  && haut>Bevel1->Top
-			  && gauche+Image17->Width<Bevel1->Left+Bevel1->Width
-			  && haut+Image17->Height<Bevel1->Top+Bevel1->Height) {
+			  && gauche-Image17->Width<Bevel1->Left
+			  && haut-Image17->Height<Bevel1->Left) {
 		Image17->Top= haut;
 		Image17->Left= gauche;
 	}
 }
 //---------------------------------------------------------------------------
-
-
 
